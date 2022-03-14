@@ -5,25 +5,36 @@
 
 body {
     margin: 0%;
-    padding: 20% 20%;
+    padding: 0% 20%;
 }
 
 h1 {
     text-decoration: underline darkcyan;
+    color: darkcyan;
+    text-align: center;
+}
+
+.selectors {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
 }
 
 .selector {
     color: lightcyan;
-    padding: 5%;
-    border: solid darkcyan 1px;
-    border-radius: 5px;
 }
 
 #universal {
     color: lightgoldenrodyellow;
 }
 
-h2 {
+h2.selector {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+h2#universal {
     background-color: darkcyan;
     padding: 1%;
     border-radius: 5px;
